@@ -3,6 +3,14 @@
     padding: 0;
     margin: 0;
 }
+
+.roboto-uniquifier {
+             font-family: "Roboto", sans-serif;
+             font-optical-sizing: auto;
+             font-style: normal;
+             font-variation-settings:
+                     "wdth" 100;
+         }
 header{
     background: white;
     padding: 7px 0;
@@ -11,6 +19,7 @@ header{
     margin: auto;
     max-width: 1064px;
 }
+
 .d-flex{
     display: flex;
 }
@@ -608,38 +617,50 @@ button{
     text-align: center;
     color: #FFFFFF;
 }
-.ui-dialog .ui-dialog-content{
-    margin-top: 5px;
-    font-size: 20px;
+.owl-nav{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
 }
-.ui-dialog .ui-dialog-content .form_dialog{
-    max-width: 250px;
+.owl-prev{
+    left: 10px;
+    background-image: url('img/arrow-left1.svg');
 }
-.ui-dialog .ui-dialog-content .form_dialog .button{
-    max-width: 70px;
-    background-color: black;
-    border: 1px solid;
-    border-radius: 10px;
-    display: flex;
-    padding:7px 10px;
-    margin: auto;
-    margin-top: 10px;
-    text-decoration: none;
-    color: #FFFFFF;
-    justify-content: center;
+.owl-next{
+    right: 10px;
+    background-image: url('img/arrow-left.svg');
 }
-.ui-dialog .ui-dialog-content .form_dialog .search{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 23px;
+/*
+.owl-dots{
     text-align: center;
+    position: absolute;
+    bottom: 30px;
+    left: 44%;
+    .owl-dot{
+        span{
+            display: inline-block;
+            margin: 10px;
+            height: 8px;
+            width: 8px;
+            border-radius: 50%;
+            background-color: #727272;
+        }
+        &.active{
+            span{
+                background-color: #1A712A;
+            }
+        }
+    }
 }
-.ui-dialog .ui-dialog-content .form_dialog input{
-    margin-top: 5px;
-}
-.owl-carousel{
 
-}
-
+ */
 

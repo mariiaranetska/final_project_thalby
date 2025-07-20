@@ -3,7 +3,7 @@
         padding: 0 15px;
     }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     nav{
         display: none
     }
@@ -16,6 +16,7 @@
     .main_banner img{
         position: relative;
         margin: auto;
+        right: -30px;
     }
     .culture .d-flex{
         flex-direction: column;
@@ -37,7 +38,7 @@
         margin-right:15px;
     }
 }
-@media screen and (max-width: 439px) {
+@media screen and (max-width: 430px) {
     .main_banner h1{
         font-size: 30px;
         line-height: 50px;
@@ -45,9 +46,16 @@
     }
     .main_banner img{
         width: 100%;
+        right: 8px;
+    }
+    .test-class{
+        max-width: 430px;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
     }
     .footer_container img{
-        width:90%;
+        width:100%;
         margin-right:5px ;
     }
     .footer_logo{
@@ -59,40 +67,10 @@
     }
 }
 
-@media screen and (max-width: 428px) {
-    nav{
-        display: none
-    }
-    header .logo{
-        position: relative;
-        left: 0;
-        margin-left: 0px;
-        top: 0px;
-    }
-}
-@media screen and (max-width: 333px) {
-    .main_banner h1{
-        font-weight: 600;
-        font-size: 25px;
-        line-height: 45px;
-    }
-    .best_sellers{
-        width:90%;
-        margin-left: 25px;
-    }
-    .form{
-        max-width: 310px;
-    }
-}
-
 @media screen and (max-width: 320px) {
 
 }
-@media screen and (max-width: 305px) {
-    .last_name{
-        margin-bottom: 15px;
-    }
-}
+
 @media screen and (max-width: 280px) {
     .main_banner h1{
         font-weight: 550;
@@ -100,7 +78,7 @@
         line-height: 40px;
     }
     .best_sellers{
-        width:80%
+        width:100%
     }
     .email{
         max-width: 300px;
