@@ -4,12 +4,14 @@ $('.owl-carousel').owlCarousel({
     autoplaySpeed: 1000,
     loop: true,
     nav: true,
+   // navText : ["<img src='../img/arrow-left1.svg'>","<img src='../img/arrow-left.svg'>"],
+    navText : ["",""],
     responsive:{
         0:{
             items:1
         },
         1100:{
-            items:1
+            items:3
         }
     }
 
