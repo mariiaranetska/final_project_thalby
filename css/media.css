@@ -1,0 +1,108 @@
+@media screen and (max-width: 992px) {
+    .container{
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width: 767px) {
+    nav{
+        display: none
+    }
+    .people .d-flex{
+        flex-direction: column;
+    }
+    .main_banner .container h1{
+        font-size: 50px;
+    }
+    .main_banner img{
+        position: relative;
+        margin: auto;
+    }
+    .culture .d-flex{
+        flex-direction: column;
+    }
+    .culture .for_img{
+        margin-top: 15px;
+    }
+    .power .d-flex{
+        flex-direction: column;
+    }
+    .voices .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .voices .item img{
+        margin-top: 0px;
+    }
+    .links{
+        margin-right:15px;
+    }
+}
+@media screen and (max-width: 439px) {
+    .main_banner h1{
+        font-size: 30px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+    .main_banner img{
+        width: 100%;
+    }
+    .footer_container img{
+        width:90%;
+        margin-right:5px ;
+    }
+    .footer_logo{
+        max-width: 100px;
+        margin-right:5px ;
+    }
+    .links{
+        margin-right: 35px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    nav{
+        display: none
+    }
+    header .logo{
+        position: relative;
+        left: 0;
+        margin-left: 0px;
+        top: 0px;
+    }
+}
+@media screen and (max-width: 333px) {
+    .main_banner h1{
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 45px;
+    }
+    .best_sellers{
+        width:90%;
+        margin-left: 25px;
+    }
+    .form{
+        max-width: 310px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+}
+@media screen and (max-width: 305px) {
+    .last_name{
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 280px) {
+    .main_banner h1{
+        font-weight: 550;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .best_sellers{
+        width:80%
+    }
+    .email{
+        max-width: 300px;
+    }
+}
